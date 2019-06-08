@@ -1,0 +1,47 @@
+<style>
+#customers
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+
+border-collapse:collapse;
+}
+#customers td, #customers th 
+{
+font-size:1em;
+border:0px solid #FFEAC1;
+padding:3px 7px 2px 7px;
+}
+#customers th 
+{
+font-size:1.1em;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#FFEAC1;
+color:#000000;
+}
+#customers tr.alt td 
+{
+color:#000000;
+background-color:#FFFFFF;
+}
+#customers tr.al td 
+{
+color:#000000;
+background-color:#FFFFFF;
+height:100px;
+}
+
+body {
+background-image: url("background.jpg");
+}
+
+#groove{
+table-layout:fixed
+      width: 50%;
+    border-style: groove;
+    border-width: 5px;
+    border-color: orange;
+}
+</style>
+      
